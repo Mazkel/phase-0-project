@@ -18,7 +18,7 @@ h2.addEventListener("click", function() {
 const container = document.querySelector('.container')
 const p = document.createElement('p')
 p.className= "p"
-p.textContent = "Hi, This is my personal website. I've learned HTML, CSS, and JS, and I'm also using DOM to create this sentence."
+p.textContent = "Hi, im Silongo and this is my personal website. I've learned HTML, CSS, and JS, and I'm also using DOM to create this sentence."
 container.appendChild(p)
 
 const h3 = container.querySelector('#bio')
