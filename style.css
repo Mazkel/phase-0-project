@@ -1,6 +1,6 @@
 body {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     flex-direction: column;
     align-items: center;
     background-color: antiquewhite;
@@ -10,17 +10,36 @@ body {
     height: 400px;
     width: 450px;
     border-radius: 20px;
+    transition: transform  0.6s cubic-bezier(0.25, 0.8, 0.25, 1);    
 } 
+
+.prj1:hover, .prj2:hover, .prj3:hover {
+    transform: scale(1.1);
+}
 
 #bio {
     font-size: large;
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
 .project {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     max-width: 800px;
     order: 0;
-    font-family: sans-serif
+    font-family:cursive;
+}
+
+footer {
+    margin-top: 40px;
 }
